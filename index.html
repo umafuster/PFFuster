@@ -2,21 +2,24 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Fuster</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fuster</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="../CSS/style.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="../CSS/style.css">
 
 
-    <!-- Fuentes -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Brygada+1918:wght@600&display=swap" rel="stylesheet">
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Brygada+1918:wght@600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Brygada+1918:wght@600&family=Castoro+Titling&display=swap" rel="stylesheet">
 
 </head>
 
@@ -25,133 +28,90 @@
 
 
 
-    <!-- Header -->
-    <header>
+  <!-- Header -->
+  <header>
 
-        <!-- Logo -->
-        <img src="../Images/Logo.png" alt="Logo" class="logo">
+    <!-- Logo -->
+    <img src="../Images/Logo.png" alt="Logo" class="logo">
 
-        <nav>
-            <ul>
-                <li>
-                    <a href="../index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="../Pages/habitaciones.html">Habitaciones</a>
-                </li>
-                <li>
-                    <a href="../Pages/servicios.html">Servicios</a>
-                </li>
-                <li>
-                    <a href="../Pages/reservar.html">Reservar</a>
-                </li>
-                <li>
-                    <a href="../Pages/ubicacion.html">Ubicacion</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    <nav>
+      <ul>
+        <li class="link">
+          <a href="../index.html">Inicio</a>
+        </li>
 
-
-
-    <!-- Seccion con imagen y descripcion del hotel -->
-    <section>
-        <!-- <img src="" alt=""> -->
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, natus veniam magnam libero odit, ab, id
-            pariatur quidem incidunt harum fuga laudantium non quae blanditiis repellat? Tenetur deleniti unde nemo!
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam deserunt quod nam voluptates doloremque
-            facilis. Rerum, ipsa vitae? Quod, dicta. Quam fugiat a aspernatur odio in temporibus ea eum vel!</p>
-    </section>
+        <li lass="link">
+          <a href="../Pages/servicios.html">Servicios</a>
+        </li>
+        <li lass="link">
+          <a href="../Pages/reservar.html">Reservar</a>
+        </li>
+        <li lass="link">
+          <a href="../Pages/ubicacion.html">Ubicacion</a>
+        </li>
+        <li lass="link-h">
+          <a href="../Pages/habitaciones.html">Habitaciones</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
 
-    <!-- Carrousel con info -->
 
-    <!-- <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="../Images/palermo-noche.jpg" class="img-carrousel" alt="Palermo de noche">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Vida nocturna</h5>
-              <p>Restaurantes de nivel, con buen servicio y sabores autoctonos</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="../Images/palermo.png" class="img-carrousel" alt="Alrededores">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Zona</h5>
-              <p>Zona gastronomica y para hacer compras</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="../Images/bosques-de-palermo.jpg" class="img-carrousel" alt="Bosques de palermo">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Area Verde</h5>
-              <p>Zona verde para disfrutar un dia al aire libre con actividades</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div> -->
+  <!-- Imagen inicio -->
+  <section class="contenedor-inicio">
+
+    <img src="../Images/lobby.jpg" class="img-1" alt="Imagen Lobby">
+    <h1 class="contenedor-inicio-titulo">El Hotel</h1>
+    
+  </section>
+
+<!-- Info sobre la zona y el hotel --> 
+  <section class="container-info">
+  <p class="container-info-texto">Ubicado en la hermosa zona de Palermo, nuestro hotel es el lugar perfecto para disfrutar de unas
+    vacaciones inolvidables. 
+    Nos esforzamos por brindar una experiencia única y excepcional a cada uno de nuestros
+    huéspedes. 
+    Nuestras habitaciones están diseñadas con elegancia y comodidad en mente, ofreciendo todas las
+    comodidades modernas que uno esperaría de un hotel de alta calidad. 
+    Además de nuestras lujosas habitaciones,
+    nuestro hotel cuenta con una amplia gama de instalaciones y servicios, incluyendo una
+    piscina espectacular, un gimnasio totalmente equipado y un spa relajante.</p>
+
+    <img src="../Images/palermo-noche.jpg" class="container-info-img" alt="Zona noche">
+</section>
+
+
+
+  <!-- Footer -->
+  <footer>
+    <nav class="contacto">
+      <ul class="contacto">
+        <li>Tel:</li>
+        <li>Mail:</li>
+      </ul>
+    </nav>
+
+    <!-- Logo -->
+    <img src="../Images/Logo.png" alt="Logo" class="logo">
+
+    <nav class="redes">
+      <ul class="redes">
+        <li>Instagram</li>
+        <li>Facebook</li>
+        <li>Tiktok</li>
+      </ul>
+    </nav>
+  </footer>
 
 
 
 
+  <body>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- Footer -->
-    <footer>
-        <nav class="contacto">
-            <ul class="contacto">
-                <li>Tel:</li>
-                <li>Mail:</li>
-            </ul>
-        </nav>
-
-        <!-- Logo -->
-        <img src="../Images/Logo.png" alt="Logo" class="logo">
-
-        <nav class="redes">
-            <ul class="redes">
-                <li>Instagram</li>
-                <li>Facebook</li>
-                <li>Tiktok</li>
-            </ul>
-        </nav>
-    </footer>
-
-
-
-
-    <body>
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-            crossorigin="anonymous"></script>
-    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"></script>
+  </body>
 
 </html>

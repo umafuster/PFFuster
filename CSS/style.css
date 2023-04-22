@@ -9,10 +9,14 @@
 /* Header */
 header {
     background-color: rgb(178, 179, 167);
-    margin: 5px;
     padding: 30px;
+    margin-top: 0px;
     display: flex;
     justify-content: space-between;
+    /*position: fixed; */
+    
+    opacity: 0.9;
+
 }
 
 /* Logo Footer y Header */
@@ -22,18 +26,84 @@ header {
     background-color: rgb(178, 179, 167);
 }
 
+/* Imagen y texto inicio */
+
+.contenedor-inicio {
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.img-1 {
+    height: 800px;
+    width: 100%;
+}
+
+.contenedor-inicio-titulo {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Castoro Titling';
+    color: black;
+}
+
+.container-info {
+    margin-top: 100px;
+    margin-left: 95px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 0px;
+
+}
+.container-info-texto {
+    grid-column-start: 1;
+    grid-column-end: 1;
+   text-align: justify;
+   font-family: 'Brygada 1918', serif;
+}
+
+.container-info-img {
+    height: 300px;
+    width: 500px;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+/* Fin Imagen y texto inicio */
 
 
 /* Listas */
 ul {
     list-style: none;
+    display: flex;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 0px;
 }
 
+a {
+
+    text-decoration-line: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+
+}
+
+/* Fin Listas */
 
 /* Footer */
 footer {
     background-color: rgb(178, 179, 167);
-    margin: 5px;
+
     padding: 30px;
     display: flex;
     justify-content: space-between;
@@ -60,25 +130,7 @@ footer .logo {
 
 
 }
-
-
-/* Pagina Inicio */
-
-.img-carrousel {
-width: 1500px;
-height: 700px;
-/*margin-left: 130px;*/
-opacity: 0.6;
-}
-
-
-
-
-
-
-
-
-
+/* Fin Footer */
 
 
 
@@ -92,6 +144,29 @@ opacity: 0.6;
     padding: 80px;
 }
 
+.section-desayuno-img {
+    width: 400px;
+    height: 300px;
+}
+
+
+.section-piscina-img {
+    width: 450px;
+    height: 300px;
+}
+
+.section-spa-img {
+    width: 400px;
+    height: 300px;
+}
+
+.section-gimnasio-img {
+    width: 400px;
+    height: 300px;
+}
+
+/* Fin Pagina Servicios */
+
 
 /* Pagina Habitaciones */
 .hab-1,
@@ -102,11 +177,11 @@ opacity: 0.6;
     margin: 30px 5px;
     border: 2px solid rgb(178, 179, 167);
     padding: 80px;
-} 
+}
 
 
 /* Pagina Servicios */
 .map-container {
-        display: flex;
+    display: flex;
     justify-content: center;
 }
