@@ -1,0 +1,91 @@
+/* Listas */
+* {
+    font-family: 'Brygada 1918', serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header */
+header {
+    background-color: rgb(178, 179, 167);
+    margin: 5px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Logo Footer y Header */
+.logo {
+    height: 4rem;
+    width: 4.5rem;
+    background-color: rgb(178, 179, 167);
+}
+
+
+
+/* Listas */
+ul {
+    list-style: none;
+}
+
+
+/* Footer */
+footer {
+    background-color: rgb(178, 179, 167);
+    margin: 5px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacto {
+    margin: 30px;
+
+}
+
+.redes {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+
+}
+
+footer .logo {
+    margin: 50px;
+    padding-left: 100px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+/* Pagina Servicios */
+.section-desayuno,
+.section-piscina,
+.section-spa,
+.section-gimnasio {
+    margin: 30px 5px;
+    border: 2px solid rgb(178, 179, 167);
+    padding: 80px;
+}
+
+
+/* Pagina Habitaciones */
+.hab-1,
+.hab-2,
+.hab-3,
+.hab-4,
+.hab-5 {
+    margin: 30px 5px;
+    border: 2px solid rgb(178, 179, 167);
+    padding: 80px;
+}
+
+
+/* Pagina Servicios */
+.map-container {
+        display: flex;
+    justify-content: center;
+}
