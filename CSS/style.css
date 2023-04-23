@@ -13,8 +13,8 @@ header {
     margin-top: 0px;
     display: flex;
     justify-content: space-between;
-    /*position: fixed; */
-    
+    /*position: fixed;*/
+
     opacity: 0.9;
 
 }
@@ -60,11 +60,12 @@ header {
     grid-row-gap: 0px;
 
 }
+
 .container-info-texto {
     grid-column-start: 1;
     grid-column-end: 1;
-   text-align: justify;
-   font-family: 'Brygada 1918', serif;
+    text-align: justify;
+    font-family: 'Brygada 1918', serif;
 }
 
 .container-info-img {
@@ -73,6 +74,7 @@ header {
     grid-column-start: 2;
     grid-column-end: 2;
 }
+
 /* Fin Imagen y texto inicio */
 
 
@@ -111,7 +113,8 @@ footer {
 
 .contacto {
     margin: 30px;
-
+    display: flex;
+    flex-direction: column;
 }
 
 .redes {
@@ -130,12 +133,13 @@ footer .logo {
 
 
 }
+
 /* Fin Footer */
 
 
 
 /* Pagina Servicios */
-.section-desayuno,
+/*.section-desayuno,
 .section-piscina,
 .section-spa,
 .section-gimnasio {
@@ -143,8 +147,8 @@ footer .logo {
     border: 2px solid rgb(178, 179, 167);
     padding: 80px;
 }
-
-.section-desayuno-img {
+*/
+/*.section-desayuno-img {
     width: 400px;
     height: 300px;
 }
@@ -164,8 +168,23 @@ footer .logo {
     width: 400px;
     height: 300px;
 }
+*/
+
+.container-servicios {
+    margin-left: 225px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+
 
 /* Fin Pagina Servicios */
+
+
 
 
 /* Pagina Habitaciones */
@@ -180,7 +199,7 @@ footer .logo {
 }
 
 
-/* Pagina Servicios */
+/* Pagina Ubicacion */
 .map-container {
     display: flex;
     justify-content: center;
