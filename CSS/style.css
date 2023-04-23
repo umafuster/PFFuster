@@ -188,15 +188,59 @@ footer .logo {
 
 
 /* Pagina Habitaciones */
-.hab-1,
-.hab-2,
-.hab-3,
-.hab-4,
-.hab-5 {
+.container-hab-1,
+.container-hab-2,
+.container-hab-3,
+.container-hab-4,
+.container-hab-5 {
     margin: 30px 5px;
     border: 2px solid rgb(178, 179, 167);
     padding: 80px;
 }
+
+.container-hab-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: px;
+    grid-row-gap: px;
+}
+
+.container-hab-1-img {
+    width: 400px;
+    height: 300px;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+.container-hab-1-info {
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.container-hab-2-img {
+    width: 450px;
+    height: 300px;
+}
+
+.container-hab-3-img {
+    width: 400px;
+    height: 300px;
+}
+
+.container-hab-4-img {
+    width: 425px;
+    height: 300px;
+}
+
+.container-hab-5-img {
+    width: 425px;
+    height: 300px;
+}
+
+/* Fin Pagina Habitaciones */
+
+
+
 
 
 /* Pagina Ubicacion */
