@@ -112,6 +112,7 @@ footer {
 }
 
 .contacto {
+    padding-top: 6px;
     margin: 30px;
     display: flex;
     flex-direction: column;
