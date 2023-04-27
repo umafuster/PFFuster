@@ -351,7 +351,7 @@ footer .logo {
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 3;
-    
+
 }
 
 .container-ubicacion-info {
@@ -365,7 +365,7 @@ footer .logo {
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 2;
-    
+
 }
 
 /* Reservar */
@@ -424,3 +424,52 @@ footer .logo {
     width: 5rem;
     height: 4.5rem;
 }
+
+
+/* Media Querys */
+
+/*@media screen (min-width: 360px) and (max-width: 904px) {
+    header {
+        background-color: rgb(178, 179, 167);
+        opacity: 0.9;
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+    }
+    .container-link {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+
+    footer {
+        background-color: rgb(178, 179, 167);
+        width: auto;
+        padding: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+   
+
+    .contacto {
+        padding-top: 6px;
+        padding-left: 1px;
+        margin: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .redes {
+        margin: 30px;
+        padding-right: 30px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 50px;
+
+    }
+
+}
+*/
