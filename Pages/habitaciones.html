@@ -23,30 +23,37 @@
 <body>
 
    <!-- Header -->
-  <header>
+   <!-- Header -->
+   <header>
+ 
 
     <!-- Logo -->
     <img src="../Images/Logo.png" alt="Logo" class="logo">
-
-    <nav>
-      <ul>
-        <li>
-          <a href="../index.html">Inicio</a>
-        </li>
-
-        <li>
-          <a href="../Pages/servicios.html">Servicios</a>
-        </li>
-        <li>
-          <a href="../Pages/reservar.html">Reservar</a>
-        </li>
-        <li>
-          <a href="../Pages/ubicacion.html">Ubicacion</a>
-        </li>
-        <li>
-          <a href="../Pages/habitaciones.html">Habitaciones</a>
-        </li>
-      </ul>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Pages/servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Pages/reservar.html">Reservar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Pages/ubicacion.html">Ubicacion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Pages/habitaciones.html">Habitaciones</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
   </header>
 
@@ -212,26 +219,25 @@
 
 
     <!-- Footer -->
-    <footer>
-        <div class="contacto">
-            <ul class="contacto">
-                <li>Tel reservas: 11-5481-3241</li>
-                <li>Mail: reservas@fusterhotel.com</li>
-            </ul>
-        </div>
-
-
+    <footer class="row">
+        <nav class="contacto col-sm-4 g-0">
+          <ul class="contacto">
+            <li>Tel reservas: 11-5481-3241</li>
+            <li>Mail: reservas@fusterhotel.com</li>
+          </ul>
+        </nav>
+    
         <!-- Logo -->
-        <img src="../Images/Logo.png" alt="Logo" class="logo">
-
-        <div class="redes">
-            <ul class="redes">
-                <li>Instagram</li>
-                <li>Facebook</li>
-                <li>Tiktok</li>
-            </ul>
-        </div>
-    </footer>
+        <img src="Images/Logo.png" alt="Logo" class="logo col-sm-4">
+    
+        <nav class="redes col-sm-4">
+          <ul class="redes">
+            <li>Instagram</li>
+            <li>Facebook</li>
+            <li>Tiktok</li>
+          </ul>
+        </nav>
+      </footer>
 
 
     <!-- Links Bootstrap -->
