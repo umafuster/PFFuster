@@ -1,0 +1,11 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">Hi 👋, I'm Uma Fuster</h1>\r <h3 align=\"left\">I'm working on my Project</h3>\r <p align=\"left\">\r </p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

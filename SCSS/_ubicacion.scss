@@ -1,0 +1,29 @@
+.container-ubicacion {
+    margin: 50px 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat (3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 0px;
+
+    .container-ubicacion-mapa {
+        margin-right: 30px;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+
+    .container-ubicacion-info {
+        line-height: 30px;
+        margin-left: 100px;
+        margin-right: 30px;
+        margin-bottom: 100px;
+        text-align: justify;
+        margin-left: 30px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+}

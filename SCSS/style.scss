@@ -1,0 +1,41 @@
+@import "header";
+@import "footer";
+@import "habitaciones";
+@import "inicio";
+@import "mediaqueri";
+@import "reservar";
+@import "servicios";
+@import "ubicacion";
+
+
+
+* {
+    font-family: 'Brygada 1918', serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(178, 179, 167, 0.3);
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 0px;
+}
+
+a {
+
+    text-decoration-line: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+
+}

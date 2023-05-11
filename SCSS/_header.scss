@@ -1,0 +1,34 @@
+@import "variable";
+
+header {
+    background-color: $bg-general;
+    padding: 30px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.9;
+
+    .logo {
+        height: 4rem;
+        width: 4.5rem;
+        background-color: $bg-general;
+
+        nav {
+
+            div {
+
+                div {
+
+                    ul {
+
+
+                        .nav-link {
+                            color: black;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}

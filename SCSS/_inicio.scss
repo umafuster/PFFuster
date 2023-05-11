@@ -1,0 +1,58 @@
+.contenedor-inicio {
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+.container-info {
+    margin-top: 100px;
+    margin-left: 95px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 0px;
+}
+    .container-info-texto {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        text-align: justify;
+        font-family: 'Brygada 1918', serif;
+
+    }
+
+    .container-info-img {
+        height: 300px;
+        width: 500px;
+        grid-column-start: 2;
+        grid-column-end: 2;
+    }
+
+
+.img-1 {
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.contenedor-inicio-titulo {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Castoro Titling';
+    color: black;
+
+}
+
+.contenedor-inicio-subtitulo {
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Castoro Titling';
+    color: black;
+    font-weight: bold;
+} 

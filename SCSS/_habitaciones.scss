@@ -1,0 +1,149 @@
+@import "variable";
+
+section .container-hab-1 {
+    margin: 30px 50px;
+    border: $border-habitaciones;
+    border-radius: 30px;
+    padding: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 0px;
+
+    .container-hab-1-img {
+        margin-left: 80px;
+        width: 400px;
+        height: 300px;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+    }
+
+    .container-hab-1-info {
+        line-height: 23px;
+        text-align: justify;
+        margin-left: 30px;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+    }
+}
+
+section .container-hab-2 {
+    margin: 30px 50px;
+    border: $border-habitaciones;
+    border-radius: 30px;
+    padding: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 0px;
+
+    .container-hab-2-img {
+        margin-left: 30px;
+        width: 450px;
+        height: 300px;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+    }
+
+    .container-hab-2-info {
+        line-height: 23px;
+        text-align: justify;
+        margin-left: 30px;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+
+    }
+}
+
+section .container-hab-3 {
+    margin: 30px 50px;
+    border: $border-habitaciones;
+    border-radius: 30px;
+    padding: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 0px;
+
+    .container-hab-3-img {
+        margin-left: 80px;
+        width: 400px;
+        height: 300px;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+    }
+
+    .container-hab-3-info {
+        line-height: 23px;
+        text-align: justify;
+        margin-left: 30px;
+    }
+}
+
+section .container-hab-4 {
+    margin: 30px 50px;
+    border: $border-habitaciones;
+    border-radius: 30px;
+    padding: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 0px;
+
+    .container-hab-4-img {
+        margin-left: 30px;
+        width: 425px;
+        height: 300px;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+    }
+
+    .container-hab-4-info {
+        line-height: 23px;
+        text-align: justify;
+        margin-left: 30px;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+    }
+}
+
+section .container-hab-5 {
+    margin: 30px 50px;
+    border: $border-habitaciones;
+    border-radius: 30px;
+    padding: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 0px;
+
+    .container-hab-5-img {
+        margin-left: 50px;
+        width: 425px;
+        height: 300px;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+    }
+
+    .container-hab-5-info {
+        line-height: 23px;
+        text-align: justify;
+        margin-left: 30px;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+    }
+}
