@@ -1,18 +1,603 @@
-/* Error: Undefined variable.
- *   ,
- * 5 |     border: $border-habitaciones;
- *   |             ^^^^^^^^^^^^^^^^^^^^
- *   '
- *   scss\component\_habitaciones.scss 5:13  @import
- *   scss\style.scss 3:9                     root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a   \2577 \a 5 \2502      border: $border-habitaciones;\d\a   \2502              ^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   scss\\component\\_habitaciones.scss 5:13  @import\a   scss\\style.scss 3:9                     root stylesheet";
+header {
+  background-color: rgb(178, 179, 167);
+  padding: 30px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.9;
 }
+header .logo {
+  height: 4rem;
+  width: 4.5rem;
+  background-color: rgb(178, 179, 167);
+}
+header .logo nav div div ul .nav-link {
+  color: black;
+}
+
+footer {
+  background-color: rgb(178, 179, 167);
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .contacto {
+  background-color: rgb(178, 179, 167);
+  padding-top: 6px;
+  padding-left: 1px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+}
+footer .logo {
+  height: 5rem;
+  width: 5.7rem;
+  background-color: rgb(178, 179, 167);
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+}
+footer .redes {
+  background-color: rgb(178, 179, 167);
+  margin: 30px;
+  padding-right: 30px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+}
+
+section .container-hab-1 {
+  margin: 30px 50px;
+  border: 2px solid rgb(178, 179, 167);
+  border-radius: 30px;
+  padding: 80px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 0px;
+}
+section .container-hab-1 .container-hab-1-img {
+  margin-left: 80px;
+  width: 400px;
+  height: 300px;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+}
+section .container-hab-1 .container-hab-1-info {
+  line-height: 23px;
+  text-align: justify;
+  margin-left: 30px;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+}
+
+section .container-hab-2 {
+  margin: 30px 50px;
+  border: 2px solid rgb(178, 179, 167);
+  border-radius: 30px;
+  padding: 80px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 0px;
+}
+section .container-hab-2 .container-hab-2-img {
+  margin-left: 30px;
+  width: 450px;
+  height: 300px;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+}
+section .container-hab-2 .container-hab-2-info {
+  line-height: 23px;
+  text-align: justify;
+  margin-left: 30px;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+}
+
+section .container-hab-3 {
+  margin: 30px 50px;
+  border: 2px solid rgb(178, 179, 167);
+  border-radius: 30px;
+  padding: 80px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 0px;
+}
+section .container-hab-3 .container-hab-3-img {
+  margin-left: 80px;
+  width: 400px;
+  height: 300px;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+}
+section .container-hab-3 .container-hab-3-info {
+  line-height: 23px;
+  text-align: justify;
+  margin-left: 30px;
+}
+
+section .container-hab-4 {
+  margin: 30px 50px;
+  border: 2px solid rgb(178, 179, 167);
+  border-radius: 30px;
+  padding: 80px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 0px;
+}
+section .container-hab-4 .container-hab-4-img {
+  margin-left: 30px;
+  width: 425px;
+  height: 300px;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+}
+section .container-hab-4 .container-hab-4-info {
+  line-height: 23px;
+  text-align: justify;
+  margin-left: 30px;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+}
+
+section .container-hab-5 {
+  margin: 30px 50px;
+  border: 2px solid rgb(178, 179, 167);
+  border-radius: 30px;
+  padding: 80px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 0px;
+}
+section .container-hab-5 .container-hab-5-img {
+  margin-left: 50px;
+  width: 425px;
+  height: 300px;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+}
+section .container-hab-5 .container-hab-5-info {
+  line-height: 23px;
+  text-align: justify;
+  margin-left: 30px;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+}
+
+.contenedor-inicio {
+  height: 800px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.container-info {
+  margin-top: 100px;
+  margin-left: 95px;
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 0px;
+}
+
+.container-info-texto {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  text-align: justify;
+  font-family: "Brygada 1918", serif;
+}
+
+.container-info-img {
+  height: 300px;
+  width: 500px;
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+
+.img-1 {
+  height: 800px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.contenedor-inicio-titulo {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Castoro Titling";
+  color: black;
+}
+
+.contenedor-inicio-subtitulo {
+  position: absolute;
+  top: 88%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Castoro Titling";
+  color: black;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  /* Footer */
+  footer {
+    background-color: rgb(178, 179, 167);
+    /*  padding: 30px; */
+    display: flex;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  .contacto {
+    overflow-wrap: break-word;
+    background-color: rgb(178, 179, 167);
+    padding: 0px;
+    margin: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    /* margin-bottom: 50px; */
+    /*margin: 30px; */
+    display: flex;
+    flex-direction: column;
+  }
+  .redes {
+    background-color: rgb(178, 179, 167);
+    padding: 0px;
+    margin: 0px;
+    /*margin: 30px; */
+    /*padding-right: 30px; */
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 50px; */
+  }
+  footer .logo {
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 50px;
+    height: 5rem;
+    width: 5.7rem;
+    background-color: rgb(178, 179, 167);
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-area: 2/1/3/2;
+  }
+  /* Fin Footer */
+  /* Inicio */
+  .contenedor-inicio-titulo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Castoro Titling";
+    color: black;
+  }
+  .contenedor-inicio-subtitulo {
+    position: absolute;
+    top: 65%;
+    left: 55.5%;
+    transform: translate(-50%, -50%);
+    font-family: "Castoro Titling";
+    color: black;
+    font-weight: bold;
+  }
+  .container-info {
+    margin: 20px 0px 0px 0px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  .container-info-img {
+    width: 300px;
+    height: 200px;
+    margin-top: 0px;
+    vertical-align: text-bottom;
+    line-height: 30px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    text-align: justify;
+    margin-left: 10px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+  .container-info-texto {
+    margin-right: 0px;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    display: flex;
+    justify-content: start;
+  }
+  /* Fin Inicio */
+  /* Pagina Servicios */
+  .container-servicios {
+    width: 300px;
+    height: 50%;
+    margin-left: 20px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+  }
+  /* Fin Pagina Servicios */
+  /* Pagina Ubicacion */
+  .container-ubicacion {
+    margin: 50px 0px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  .container-ubicacion-mapa {
+    margin-right: 30px;
+    width: 300px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    display: flex;
+    justify-content: start;
+  }
+  .container-ubicacion-info {
+    vertical-align: text-bottom;
+    line-height: 30px;
+    margin-left: 100px;
+    margin-right: 30px;
+    margin-bottom: 100px;
+    text-align: justify;
+    margin-left: 30px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+  /* Fin Pagina Ubicacion */
+  /* Pagina Habitaciones */
+  .container-hab-1,
+  .container-hab-2,
+  .container-hab-3,
+  .container-hab-4,
+  .container-hab-5 {
+    margin: 50px 0px;
+    border: 2px solid rgb(178, 179, 167);
+    border-radius: 30px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  .container-hab-1-img {
+    width: 300px;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+    grid-area: 2/1/3/2;
+  }
+  .container-hab-1-info {
+    margin-top: 20px;
+    overflow-wrap: break-word;
+    line-height: 23px;
+    text-align: justify;
+    margin-left: 0px;
+    grid-area: 1/1/2/2;
+  }
+  .container-hab-2-img {
+    width: 300px;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+    grid-area: 2/1/3/2;
+  }
+  .container-hab-2-info {
+    margin-top: 20px;
+    overflow-wrap: break-word;
+    line-height: 23px;
+    text-align: justify;
+    margin-left: 0px;
+    grid-area: 1/1/2/2;
+  }
+  .container-hab-3-img {
+    width: 300px;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+    grid-area: 2/1/3/2;
+  }
+  .container-hab-3-info {
+    margin-top: 20px;
+    overflow-wrap: break-word;
+    line-height: 23px;
+    text-align: justify;
+    margin-left: 0px;
+    grid-area: 1/1/2/2;
+  }
+  .container-hab-4-img {
+    width: 300px;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+    grid-area: 2/1/3/2;
+  }
+  .container-hab-4-info {
+    margin-top: 20px;
+    overflow-wrap: break-word;
+    line-height: 23px;
+    text-align: justify;
+    margin-left: 0px;
+    grid-area: 1/1/2/2;
+  }
+  .container-hab-5-img {
+    width: 300px;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+    grid-area: 2/1/3/2;
+  }
+  .container-hab-5-info {
+    margin-top: 20px;
+    overflow-wrap: break-word;
+    line-height: 23px;
+    text-align: justify;
+    margin-left: 0px;
+    grid-area: 1/1/2/2;
+  }
+}
+.container-reservar {
+  margin: 100px 0px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 100px;
+}
+.container-reservar .container-reservar-checkin {
+  text-align: center;
+  grid-area: 1/1/2/2;
+  margin-left: 50px;
+}
+.container-reservar .container-reservar-checkin img {
+  grid-area: 1/1/2/2;
+  width: 5rem;
+  height: 4.5rem;
+}
+.container-reservar .container-reservar-checkout {
+  text-align: center;
+  grid-area: 1/2/2/3;
+}
+.container-reservar .container-reservar-checkout img {
+  grid-area: 1/2/2/3;
+  width: 5rem;
+  height: 4.5rem;
+}
+.container-reservar .container-reservar-habitaciones {
+  text-align: center;
+  grid-area: 2/1/3/2;
+  margin-left: 50px;
+}
+.container-reservar .container-reservar-habitaciones img {
+  grid-area: 2/1/3/2;
+  width: 5rem;
+  height: 4.5rem;
+}
+.container-reservar .container-reservar-pasajeros {
+  text-align: center;
+  grid-area: 2/2/3/3;
+}
+.container-reservar .container-reservar-pasajeros img {
+  grid-area: 2/2/3/3;
+  width: 5rem;
+  height: 4.5rem;
+}
+
+.container-servicios {
+  margin-left: 225px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+.container-servicios div .card-body {
+  background-color: rgba(178, 179, 167, 0.3);
+}
+
+.container-ubicacion {
+  margin: 50px 0px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat 3, 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 0px;
+}
+.container-ubicacion .container-ubicacion-mapa {
+  margin-right: 30px;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.container-ubicacion .container-ubicacion-info {
+  line-height: 30px;
+  margin-left: 100px;
+  margin-right: 30px;
+  margin-bottom: 100px;
+  text-align: justify;
+  margin-left: 30px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+* {
+  font-family: "Brygada 1918", serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(178, 179, 167, 0.3);
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 15px;
+  grid-row-gap: 0px;
+}
+
+a {
+  text-decoration-line: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */
