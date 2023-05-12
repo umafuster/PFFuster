@@ -147,3 +147,108 @@ section .container-hab-5 {
         grid-row-start: 1;
     }
 }
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+    .container-hab-1,
+    .container-hab-2,
+    .container-hab-3,
+    .container-hab-4,
+    .container-hab-5 {
+        margin: 50px 0px;
+        border: 2px solid $bg-general;
+        border-radius: 30px;
+        padding: 0px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+
+    }
+
+    .container-hab-1-img {
+        width: 300px;
+        height: 200px;
+        margin-left: 20px;
+        margin-top: 20px;
+        grid-area: 2 / 1 / 3 / 2;
+    }
+
+    .container-hab-1-info {
+        margin-top: 20px;
+        overflow-wrap: break-word;
+        line-height: 23px;
+        text-align: justify;
+        margin-left: 0px;
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    .container-hab-2-img {
+        width: 300px;
+        height: 200px;
+        margin-left: 20px;
+        margin-top: 20px;
+        grid-area: 2 / 1 / 3 / 2;
+    }
+
+    .container-hab-2-info {
+        margin-top: 20px;
+        overflow-wrap: break-word;
+        line-height: 23px;
+        text-align: justify;
+        margin-left: 0px;
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    .container-hab-3-img {
+        width: 300px;
+        height: 200px;
+        margin-left: 20px;
+        margin-top: 20px;
+        grid-area: 2 / 1 / 3 / 2;
+    }
+
+    .container-hab-3-info {
+        margin-top: 20px;
+        overflow-wrap: break-word;
+        line-height: 23px;
+        text-align: justify;
+        margin-left: 0px;
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    .container-hab-4-img {
+        width: 300px;
+        height: 200px;
+        margin-left: 20px;
+        margin-top: 20px;
+        grid-area: 2 / 1 / 3 / 2;
+    }
+
+    .container-hab-4-info {
+        margin-top: 20px;
+        overflow-wrap: break-word;
+        line-height: 23px;
+        text-align: justify;
+        margin-left: 0px;
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    .container-hab-5-img {
+        width: 300px;
+        height: 200px;
+        margin-left: 20px;
+        margin-top: 20px;
+        grid-area: 2 / 1 / 3 / 2;
+    }
+
+    .container-hab-5-info {
+        margin-top: 20px;
+        overflow-wrap: break-word;
+        line-height: 23px;
+        text-align: justify;
+        margin-left: 0px;
+        grid-area: 1 / 1 / 2 / 2;
+    }
+}
