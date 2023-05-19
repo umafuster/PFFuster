@@ -1,5 +1,3 @@
-$bg-general: rgb(178, 179, 167); 
-$border-principal: 2px solid rgb(178, 179, 167);
 @mixin tablet {
     @media screen and (max-widht: 992px) {
         @content;
