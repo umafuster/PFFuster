@@ -1,8 +1,8 @@
+@import "../base/mixins";
 .contenedor-inicio {
     height: 800px;
     width: 100%;
     overflow: hidden;
-
 }
 
 .container-info {
@@ -14,6 +14,15 @@
     grid-template-rows: 1fr;
     grid-column-gap: 30px;
     grid-row-gap: 0px;
+
+    @include mobile {
+        margin: 20px 0px 0px 0px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
 }
 
 .container-info-texto {
@@ -22,6 +31,20 @@
     text-align: justify;
     font-family: 'Brygada 1918', serif;
 
+    @include mobile {
+        margin-right: 0px;
+        width: 300px;
+        height: 450px;
+        display: flex;
+        justify-content: center;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        display: flex;
+        justify-content: start;
+    }
+
 }
 
 .container-info-img {
@@ -29,6 +52,22 @@
     width: 500px;
     grid-column-start: 2;
     grid-column-end: 2;
+
+    @include mobile {
+        width: 300px;
+        height: 200px;
+        margin-top: 0px;
+        vertical-align: text-bottom;
+        line-height: 30px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        text-align: justify;
+        margin-left: 10px;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
 }
 
 
@@ -46,6 +85,15 @@
     font-family: 'Castoro Titling';
     color: black;
 
+    @include mobile {
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Castoro Titling';
+        color: black;
+    }
+
 }
 
 .contenedor-inicio-subtitulo {
@@ -56,20 +104,8 @@
     font-family: 'Castoro Titling';
     color: black;
     font-weight: bold;
-}
 
-
-@media screen and (min-width: 320px) and (max-width: 480px) {
-    .contenedor-inicio-titulo {
-        position: absolute;
-        top: 90%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        font-family: 'Castoro Titling';
-        color: black;
-    }
-
-    .contenedor-inicio-subtitulo {
+    @include mobile {
         position: absolute;
         top: 105%;
         left: 55.5%;
@@ -78,46 +114,6 @@
         color: black;
         font-weight: bold;
     }
-
-
-
-    .container-info {
-        margin: 20px 0px 0px 0px;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
-
-    }
-
-    .container-info-img {
-        width: 300px;
-        height: 200px;
-        margin-top: 0px;
-        vertical-align: text-bottom;
-        line-height: 30px;
-        margin-right: 0px;
-        margin-bottom: 0px;
-        text-align: justify;
-        margin-left: 10px;
-        grid-column-start: 1;
-        grid-column-end: 1;
-        grid-row-start: 2;
-        grid-row-end: 2;
-    }
-
-    .container-info-texto {
-        margin-right: 0px;
-        width: 300px;
-        height: 450px;
-        display: flex;
-        justify-content: center;
-        grid-column-start: 1;
-        grid-column-end: 1;
-        grid-row-start: 1;
-        grid-row-end: 1;
-        display: flex;
-        justify-content: start;
-    }
 }
+
+
