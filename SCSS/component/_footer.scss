@@ -6,6 +6,7 @@ footer {
     padding: 30px;
     display: flex;
     justify-content: space-between;
+   
 
     @include mobile {
         background-color: $bg-general;
