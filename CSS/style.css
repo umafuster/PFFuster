@@ -436,7 +436,7 @@ footer .logo {
   }
 }
 
-.contenedor-inicio {
+.container-inicio {
   height: 800px;
   width: 100%;
   overflow: hidden;
@@ -515,7 +515,7 @@ footer .logo {
   overflow: hidden;
 }
 
-.contenedor-inicio-titulo {
+.container-inicio-titulo {
   position: absolute;
   top: 80%;
   left: 50%;
@@ -524,7 +524,7 @@ footer .logo {
   color: black;
 }
 @media screen and (max-widht: 576px) {
-  .contenedor-inicio-titulo {
+  .container-inicio-titulo {
     position: absolute;
     top: 90%;
     left: 50%;
@@ -534,7 +534,7 @@ footer .logo {
   }
 }
 
-.contenedor-inicio-subtitulo {
+.container-inicio-subtitulo {
   position: absolute;
   top: 88%;
   left: 50%;
@@ -544,7 +544,7 @@ footer .logo {
   font-weight: bold;
 }
 @media screen and (max-widht: 576px) {
-  .contenedor-inicio-subtitulo {
+  .container-inicio-subtitulo {
     position: absolute;
     top: 105%;
     left: 55.5%;
