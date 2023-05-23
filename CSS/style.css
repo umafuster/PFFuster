@@ -11,7 +11,7 @@ header .logo {
   width: 4.5rem;
   background-color: rgb(178, 179, 167);
 }
-header .logo nav div div ul .nav-link {
+.nav-link {
   color: black;
 }
 
@@ -34,7 +34,8 @@ footer {
     grid-row-gap: 0px;
   }
 }
-footer .contacto {
+
+.contacto {
   background-color: rgb(178, 179, 167);
   padding-top: 6px;
   padding-left: 1px;
@@ -43,7 +44,7 @@ footer .contacto {
   flex-direction: column;
 }
 @media screen and (max-widht: 576px) {
-  footer .contacto {
+  .contacto {
     overflow-wrap: break-word;
     background-color: rgb(178, 179, 167);
     padding: 0px;
@@ -55,6 +56,7 @@ footer .contacto {
     flex-direction: column;
   }
 }
+
 footer .logo {
   height: 5rem;
   width: 5.7rem;
@@ -78,7 +80,8 @@ footer .logo {
     grid-area: 2/1/3/2;
   }
 }
-footer .redes {
+
+.redes {
   background-color: rgb(178, 179, 167);
   margin: 30px;
   padding-right: 30px;
@@ -87,7 +90,7 @@ footer .redes {
   padding-left: 50px;
 }
 @media screen and (max-widht: 576px) {
-  footer .redes {
+  .redes {
     background-color: rgb(178, 179, 167);
     padding: 0px;
     margin: 0px;
@@ -149,7 +152,8 @@ footer .redes {
     grid-row-gap: 0px;
   }
 }
-.container-hab-1 .container-hab-1-img {
+
+.container-hab-1-img {
   margin-left: 80px;
   width: 400px;
   height: 300px;
@@ -158,7 +162,7 @@ footer .redes {
   grid-row-start: 1;
 }
 @media screen and (max-widht: 576px) {
-  .container-hab-1 .container-hab-1-img {
+  .container-hab-1-img {
     width: 300px;
     height: 200px;
     margin-left: 20px;
@@ -166,7 +170,8 @@ footer .redes {
     grid-area: 2/1/3/2;
   }
 }
-.container-hab-1 .container-hab-1-img .container-hab-1-info {
+
+.container-hab-1-info {
   line-height: 23px;
   text-align: justify;
   margin-left: 30px;
@@ -175,7 +180,7 @@ footer .redes {
   grid-row-start: 1;
 }
 @media screen and (max-widht: 576px) {
-  .container-hab-1 .container-hab-1-img .container-hab-1-info {
+  .container-hab-1-info {
     margin-top: 20px;
     overflow-wrap: break-word;
     line-height: 23px;
@@ -209,7 +214,8 @@ footer .redes {
     grid-row-gap: 0px;
   }
 }
-.container-hab-2 .container-hab-2-img {
+
+.container-hab-2-img {
   margin-left: 30px;
   width: 450px;
   height: 300px;
@@ -218,7 +224,7 @@ footer .redes {
   grid-row-start: 1;
 }
 @media screen and (max-widht: 576px) {
-  .container-hab-2 .container-hab-2-img {
+  .container-hab-2-img {
     width: 300px;
     height: 200px;
     margin-left: 20px;
@@ -226,7 +232,8 @@ footer .redes {
     grid-area: 2/1/3/2;
   }
 }
-.container-hab-2 .container-hab-2-info {
+
+.container-hab-2-info {
   line-height: 23px;
   text-align: justify;
   margin-left: 30px;
@@ -235,7 +242,7 @@ footer .redes {
   grid-row-start: 1;
 }
 @media screen and (max-widht: 576px) {
-  .container-hab-2 .container-hab-2-info {
+  .container-hab-2-info {
     margin-top: 20px;
     overflow-wrap: break-word;
     line-height: 23px;
@@ -269,7 +276,8 @@ footer .redes {
     grid-row-gap: 0px;
   }
 }
-.container-hab-3 .container-hab-3-img {
+
+.container-hab-3-img {
   margin-left: 80px;
   width: 400px;
   height: 300px;
@@ -278,7 +286,7 @@ footer .redes {
   grid-row-start: 1;
 }
 @media screen and (max-widht: 576px) {
-  .container-hab-3 .container-hab-3-img {
+  .container-hab-3-img {
     width: 300px;
     height: 200px;
     margin-left: 20px;
@@ -286,13 +294,14 @@ footer .redes {
     grid-area: 2/1/3/2;
   }
 }
-.container-hab-3 .container-hab-3-info {
+
+.container-hab-3-info {
   line-height: 23px;
   text-align: justify;
   margin-left: 30px;
 }
 @media screen and (max-widht: 576px) {
-  .container-hab-3 .container-hab-3-info {
+  .container-hab-3-info {
     margin-top: 20px;
     overflow-wrap: break-word;
     line-height: 23px;
@@ -326,7 +335,8 @@ footer .redes {
     grid-row-gap: 0px;
   }
 }
-.container-hab-4 .container-hab-4-img {
+
+.container-hab-4-img {
   margin-left: 30px;
   width: 425px;
   height: 300px;
@@ -335,7 +345,7 @@ footer .redes {
   grid-row-start: 1;
 }
 @media screen and (max-widht: 576px) {
-  .container-hab-4 .container-hab-4-img {
+  .container-hab-4-img {
     width: 300px;
     height: 200px;
     margin-left: 20px;
@@ -343,7 +353,8 @@ footer .redes {
     grid-area: 2/1/3/2;
   }
 }
-.container-hab-4 .container-hab-4-info {
+
+.container-hab-4-info {
   line-height: 23px;
   text-align: justify;
   margin-left: 30px;
@@ -352,7 +363,7 @@ footer .redes {
   grid-row-start: 1;
 }
 @media screen and (max-widht: 576px) {
-  .container-hab-4 .container-hab-4-info {
+  .container-hab-4-info {
     margin-top: 20px;
     overflow-wrap: break-word;
     line-height: 23px;
@@ -386,7 +397,8 @@ footer .redes {
     grid-row-gap: 0px;
   }
 }
-.container-hab-5 .container-hab-5-img {
+
+.container-hab-5-img {
   margin-left: 50px;
   width: 425px;
   height: 300px;
@@ -395,7 +407,7 @@ footer .redes {
   grid-row-start: 1;
 }
 @media screen and (max-widht: 576px) {
-  .container-hab-5 .container-hab-5-img {
+  .container-hab-5-img {
     width: 300px;
     height: 200px;
     margin-left: 20px;
@@ -403,7 +415,8 @@ footer .redes {
     grid-area: 2/1/3/2;
   }
 }
-.container-hab-5 .container-hab-5-info {
+
+.container-hab-5-info {
   line-height: 23px;
   text-align: justify;
   margin-left: 30px;
@@ -412,7 +425,7 @@ footer .redes {
   grid-row-start: 1;
 }
 @media screen and (max-widht: 576px) {
-  .container-hab-5 .container-hab-5-info {
+  .container-hab-5-info {
     margin-top: 20px;
     overflow-wrap: break-word;
     line-height: 23px;
@@ -549,40 +562,44 @@ footer .redes {
   grid-column-gap: 0px;
   grid-row-gap: 100px;
 }
-.container-reservar .container-reservar-checkin {
+
+.container-reservar-checkin {
   text-align: center;
   grid-area: 1/1/2/2;
   margin-left: 50px;
 }
-.container-reservar .container-reservar-checkin img {
+.container-reservar-checkin img {
   grid-area: 1/1/2/2;
   width: 5rem;
   height: 4.5rem;
 }
-.container-reservar .container-reservar-checkout {
+
+.container-reservar-checkout {
   text-align: center;
   grid-area: 1/2/2/3;
 }
-.container-reservar .container-reservar-checkout img {
+.container-reservar-checkout img {
   grid-area: 1/2/2/3;
   width: 5rem;
   height: 4.5rem;
 }
-.container-reservar .container-reservar-habitaciones {
+
+.container-reservar-habitaciones {
   text-align: center;
   grid-area: 2/1/3/2;
   margin-left: 50px;
 }
-.container-reservar .container-reservar-habitaciones img {
+.container-reservar-habitaciones img {
   grid-area: 2/1/3/2;
   width: 5rem;
   height: 4.5rem;
 }
-.container-reservar .container-reservar-pasajeros {
+
+.container-reservar-pasajeros {
   text-align: center;
   grid-area: 2/2/3/3;
 }
-.container-reservar .container-reservar-pasajeros img {
+.container-reservar-pasajeros img {
   grid-area: 2/2/3/3;
   width: 5rem;
   height: 4.5rem;
@@ -610,7 +627,8 @@ footer .redes {
     grid-row-gap: 20px;
   }
 }
-.container-servicios div .card-body {
+
+div .card-body {
   background-color: rgba(178, 179, 167, 0.3);
 }
 
