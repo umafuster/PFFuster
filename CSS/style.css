@@ -22,7 +22,7 @@ footer {
   display: flex;
   justify-content: space-between;
 }
-@media screen and (max-widht: 576px) {
+@media screen and (max-width: 576px) {
   footer {
     background-color: rgb(178, 179, 167);
     padding: 0px;
@@ -44,7 +44,7 @@ footer {
   display: flex;
   flex-direction: column;
 }
-@media screen and (max-widht: 576px) {
+@media screen and (max-width: 576px) {
   .contacto {
     overflow-wrap: break-word;
     background-color: rgb(178, 179, 167);
@@ -66,7 +66,7 @@ footer .logo {
   display: flex;
   justify-content: center;
 }
-@media screen and (max-widht: 576px) {
+@media screen and (max-width: 576px) {
   footer .logo {
     padding: 0px;
     margin: 0px;
@@ -90,7 +90,7 @@ footer .logo {
   flex-direction: column;
   padding-left: 50px;
 }
-@media screen and (max-widht: 576px) {
+@media screen and (max-width: 576px) {
   .redes {
     background-color: rgb(178, 179, 167);
     padding: 0px;
@@ -140,7 +140,7 @@ footer .logo {
   grid-column-gap: 30px;
   grid-row-gap: 0px;
 }
-@media screen and (max-widht: 576px) {
+@media screen and (max-width: 576px) {
   .container-hab-1 {
     margin: 50px 0px;
     border: 2px solid rgb(178, 179, 167);
@@ -162,7 +162,7 @@ footer .logo {
   grid-column-end: 2;
   grid-row-start: 1;
 }
-@media screen and (max-widht: 576px) {
+@media screen and (max-width: 576px) {
   .container-hab-1-img {
     width: 300px;
     height: 200px;
@@ -180,7 +180,7 @@ footer .logo {
   grid-column-end: 1;
   grid-row-start: 1;
 }
-@media screen and (max-widht: 576px) {
+@media screen and (max-width: 576px) {
   .container-hab-1-info {
     margin-top: 20px;
     overflow-wrap: break-word;
@@ -202,7 +202,7 @@ footer .logo {
   grid-column-gap: 30px;
   grid-row-gap: 0px;
 }
-@media screen and (max-widht: 576px) {
+@media screen and (max-width: 576px) {
   .container-hab-2 {
     margin: 50px 0px;
     border: 2px solid rgb(178, 179, 167);
@@ -224,7 +224,7 @@ footer .logo {
   grid-column-end: 1;
   grid-row-start: 1;
 }
-@media screen and (max-widht: 576px) {
+@media screen and (max-width: 576px) {
   .container-hab-2-img {
     width: 300px;
     height: 200px;
@@ -242,7 +242,7 @@ footer .logo {
   grid-column-end: 2;
   grid-row-start: 1;
 }
-@media screen and (max-widht: 576px) {
+@media screen and (max-width: 576px) {
   .container-hab-2-info {
     margin-top: 20px;
     overflow-wrap: break-word;
@@ -264,7 +264,7 @@ footer .logo {
   grid-column-gap: 30px;
   grid-row-gap: 0px;
 }
-@media screen and (max-widht: 576px) {
+@media screen and (max-width: 576px) {
   .container-hab-3 {
     margin: 50px 0px;
     border: 2px solid rgb(178, 179, 167);
@@ -286,7 +286,7 @@ footer .logo {
   grid-column-end: 2;
   grid-row-start: 1;
 }
-@media screen and (max-widht: 576px) {
+@media screen and (max-width: 576px) {
   .container-hab-3-img {
     width: 300px;
     height: 200px;
@@ -301,7 +301,7 @@ footer .logo {
   text-align: justify;
   margin-left: 30px;
 }
-@media screen and (max-widht: 576px) {
+@media screen and (max-width: 576px) {
   .container-hab-3-info {
     margin-top: 20px;
     overflow-wrap: break-word;
@@ -323,7 +323,7 @@ footer .logo {
   grid-column-gap: 30px;
   grid-row-gap: 0px;
 }
-@media screen and (max-widht: 576px) {
+@media screen and (max-width: 576px) {
   .container-hab-4 {
     margin: 50px 0px;
     border: 2px solid rgb(178, 179, 167);
@@ -345,7 +345,7 @@ footer .logo {
   grid-column-end: 1;
   grid-row-start: 1;
 }
-@media screen and (max-widht: 576px) {
+@media screen and (max-width: 576px) {
   .container-hab-4-img {
     width: 300px;
     height: 200px;
@@ -363,7 +363,7 @@ footer .logo {
   grid-column-end: 2;
   grid-row-start: 1;
 }
-@media screen and (max-widht: 576px) {
+@media screen and (max-width: 576px) {
   .container-hab-4-info {
     margin-top: 20px;
     overflow-wrap: break-word;
@@ -385,7 +385,7 @@ footer .logo {
   grid-column-gap: 30px;
   grid-row-gap: 0px;
 }
-@media screen and (max-widht: 576px) {
+@media screen and (max-width: 576px) {
   .container-hab-5 {
     margin: 50px 0px;
     border: 2px solid rgb(178, 179, 167);
@@ -407,7 +407,7 @@ footer .logo {
   grid-column-end: 2;
   grid-row-start: 1;
 }
-@media screen and (max-widht: 576px) {
+@media screen and (max-width: 576px) {
   .container-hab-5-img {
     width: 300px;
     height: 200px;
@@ -425,7 +425,7 @@ footer .logo {
   grid-column-end: 1;
   grid-row-start: 1;
 }
-@media screen and (max-widht: 576px) {
+@media screen and (max-width: 576px) {
   .container-hab-5-info {
     margin-top: 20px;
     overflow-wrap: break-word;
@@ -452,7 +452,7 @@ footer .logo {
   grid-column-gap: 30px;
   grid-row-gap: 0px;
 }
-@media screen and (max-widht: 576px) {
+@media screen and (max-width: 576px) {
   .container-info {
     margin: 20px 0px 0px 0px;
     display: grid;
@@ -469,7 +469,7 @@ footer .logo {
   text-align: justify;
   font-family: "Brygada 1918", serif;
 }
-@media screen and (max-widht: 576px) {
+@media screen and (max-width: 576px) {
   .container-info-texto {
     margin-right: 0px;
     width: 300px;
@@ -491,7 +491,7 @@ footer .logo {
   grid-column-start: 2;
   grid-column-end: 2;
 }
-@media screen and (max-widht: 576px) {
+@media screen and (max-width: 576px) {
   .container-info-img {
     width: 300px;
     height: 200px;
@@ -523,7 +523,7 @@ footer .logo {
   font-family: "Castoro Titling";
   color: black;
 }
-@media screen and (max-widht: 576px) {
+@media screen and (max-width: 576px) {
   .container-inicio-titulo {
     position: absolute;
     top: 90%;
@@ -543,7 +543,7 @@ footer .logo {
   color: black;
   font-weight: bold;
 }
-@media screen and (max-widht: 576px) {
+@media screen and (max-width: 576px) {
   .container-inicio-subtitulo {
     position: absolute;
     top: 105%;
@@ -615,7 +615,7 @@ footer .logo {
   grid-column-gap: 20px;
   grid-row-gap: 20px;
 }
-@media screen and (max-widht: 576px) {
+@media screen and (max-width: 576px) {
   .container-servicios {
     width: 300px;
     height: 50%;
@@ -641,7 +641,7 @@ div .card-body {
   grid-column-gap: 30px;
   grid-row-gap: 0px;
 }
-@media screen and (max-widht: 576px) {
+@media screen and (max-width: 576px) {
   .container-ubicacion {
     margin: 50px 0px;
     display: grid;
@@ -661,7 +661,7 @@ div .card-body {
   grid-row-start: 1;
   grid-row-end: 3;
 }
-@media screen and (max-widht: 576px) {
+@media screen and (max-width: 576px) {
   .container-ubicacion-mapa {
     margin-right: 30px;
     width: 300px;
@@ -689,7 +689,7 @@ div .card-body {
   grid-row-start: 2;
   grid-row-end: 2;
 }
-@media screen and (max-widht: 576px) {
+@media screen and (max-width: 576px) {
   .container-ubicacion-info {
     vertical-align: text-bottom;
     line-height: 30px;
