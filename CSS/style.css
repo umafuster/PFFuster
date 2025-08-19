@@ -748,57 +748,6 @@ footer .logo {
   }
 }
 
-.container-reservar {
-  margin: 100px 0px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 100px;
-}
-
-.container-reservar-checkin {
-  text-align: center;
-  grid-area: 1/1/2/2;
-  margin-left: 50px;
-}
-.container-reservar-checkin img {
-  grid-area: 1/1/2/2;
-  width: 5rem;
-  height: 4.5rem;
-}
-
-.container-reservar-checkout {
-  text-align: center;
-  grid-area: 1/2/2/3;
-}
-.container-reservar-checkout img {
-  grid-area: 1/2/2/3;
-  width: 5rem;
-  height: 4.5rem;
-}
-
-.container-reservar-habitaciones {
-  text-align: center;
-  grid-area: 2/1/3/2;
-  margin-left: 50px;
-}
-.container-reservar-habitaciones img {
-  grid-area: 2/1/3/2;
-  width: 5rem;
-  height: 4.5rem;
-}
-
-.container-reservar-pasajeros {
-  text-align: center;
-  grid-area: 2/2/3/3;
-}
-.container-reservar-pasajeros img {
-  grid-area: 2/2/3/3;
-  width: 5rem;
-  height: 4.5rem;
-}
-
 .container-servicios {
   margin-left: 225px;
   margin-top: 50px;
